@@ -38,6 +38,14 @@
   }
 }
 
+@media (width <= 380px) {
+  .banner {
+    & .scroller {
+      padding-block: 1.4rem;
+    }
+  }
+}
+
 @keyframes bg-gradient {
   50% {
     background-position: 100% 50%;

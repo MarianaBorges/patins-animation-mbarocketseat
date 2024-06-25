@@ -104,6 +104,23 @@ section.gallery {
   }
 }
 
+@media (width <= 380px) {
+  section.gallery {
+    padding: 1.5rem;
+    
+    & header span {
+      font: 500 .75rem/1.5 var(--ff-base);
+    }
+
+    & .content {
+      display: grid;
+      grid-template-areas:'A''B''C''D';
+      gap: 1.5rem;
+    }
+  
+  }
+}
+
 @keyframes image-appear {
   from {
     opacity: 0;
